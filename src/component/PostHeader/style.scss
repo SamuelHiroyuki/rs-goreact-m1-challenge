@@ -1,0 +1,29 @@
+div.post-header {
+    display: flex;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+
+    div.post-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        strong {
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        span {
+            color: #aaa;
+            font-size: 12px;
+        }
+    }
+
+    img {
+        width: 55px;
+        height: 55px;
+        border-radius: 50%;
+        margin-right: 10px;
+    }
+}
